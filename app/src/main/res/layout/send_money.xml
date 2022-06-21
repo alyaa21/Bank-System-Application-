@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bank4"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/bicon"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Transfer money"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/senT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="13dp"
+        android:textStyle="bold"
+        android:hint="Please Enter Amount of Transfer money"
+        android:textColor="@android:color/black"
+
+        android:inputType="number" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Send to:"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/sentAco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="13dp"
+        android:textStyle="bold"
+        android:hint="Please Enter Account"
+        android:textColor="@android:color/black"
+
+        android:inputType="textEmailAddress" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+        <Button
+            android:id="@+id/SB"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/button_signin"
+            android:text="Send"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/canvS"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="55dp"
+
+            android:background="@drawable/button_signin"
+            android:text="cancel"
+
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bank4"
+    android:id="@+id/sign_up2"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addresses"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Please Enter Your Addresses"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:id="@+id/add"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Please Enter Your password"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:id="@+id/Vpass1"
+
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verify Password"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Please Enter Your Password"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:id="@+id/Vpass2"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+        <Button
+            android:id="@+id/okv"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/button_signin"
+            android:text="ok"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/canv"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="55dp"
+
+            android:background="@drawable/button_signin"
+            android:text="cancel"
+
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

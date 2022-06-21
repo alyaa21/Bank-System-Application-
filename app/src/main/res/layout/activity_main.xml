@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/darker_gray"
+    android:id="@+id/L1"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/bank2"
+        />
+
+    <Button
+
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/sign_in"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_signin"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in"
+        android:text="Sign up"
+        android:id="@+id/sign_up"
+        android:background="@drawable/button_signin"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        />
+
+
+</RelativeLayout>
